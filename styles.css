@@ -179,3 +179,88 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .floating-doctor {
+        position: relative;
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .choose-us {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .choose-us img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .choose-us div {
+        max-width: 100%;
+    }
+
+    .specialists .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .future-health {
+        flex-direction: column;
+    }
+
+    .future-health img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .newsletter {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
