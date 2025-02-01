@@ -64,6 +64,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .hero-content {
     max-width: 50%;
+    padding-right: 20px; /* Added padding to ensure no overlap */
 }
 
 .floating-doctor {
@@ -180,7 +181,7 @@ footer {
     padding: 20px;
 }
 
-/* Media Queries */
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     /* Header */
     header {
@@ -213,6 +214,8 @@ footer {
         width: 200px;
         height: 250px;
         margin-top: 20px;
+        right: 0; /* Ensure it's at the right edge */
+        transform: translateY(0%); /* Reset transform */
     }
 
     .stats-container {
